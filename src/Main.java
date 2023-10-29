@@ -11,7 +11,6 @@ public class Main {
         int secretNumber = random.nextInt(100) + 1;
 
         // Create a scanner for user input
-        @SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 
         // Initialize the number of attempts
